@@ -1,5 +1,14 @@
 # Home-stats-front
 
+This should become a quite simple web app, to be installed as a local app on an iOS device (preferably an iPhone since the UI is really narrow).
+
+A simple form will help recording meters readings (water and power consumptions) and store them in a local database.
+Those readings could be send in batch to an Elasticsearch cluster for data mining and visualization.
+
+----
+
+# About Ember and Ember-CLI
+
 This README outlines the details of collaborating on this Ember application.
 
 A short introduction of this app could easily go here.
