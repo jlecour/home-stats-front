@@ -1,0 +1,11 @@
+<ul id="metrics-list">
+  {{#each}}
+    <li>
+      <span class="metric-datetime">{{datetime}}</span>
+      <span class="metric-type">{{type}}</span>
+      <span class="metric-value">{{value}}</span>
+    </li>
+  {{/each}}
+</ul>
+
+{{#link-to "new"}}Back to form{{/link-to}}

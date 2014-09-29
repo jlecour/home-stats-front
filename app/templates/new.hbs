@@ -1,0 +1,30 @@
+<form role="form" accept-charset="utf-8" {{action 'save' on="submit"}}>
+
+  <div class="form-group">
+    {{input name="datetime" type="datetime-local" class="form-control"}}
+  </div>
+
+  <div class="form-group">
+    <div class="btn-group-lg" data-toggle="buttons">
+      <label class="btn btn-default">
+        {{input name="type" type="radio" id="type_water" value="water"}}Eau
+      </label>
+      <label class="btn btn-default">
+        {{input name="type" type="radio" id="type_power_hc" value="power-hc"}}Élec. HC
+      </label>
+      <label class="btn btn-default">
+        {{input name="type" type="radio" id="type_power_hp" value="power-hp"}}Élec. HP
+      </label>
+    </div>
+  </div>
+
+  <div class="form-group">
+    {{input name="value" type="number" class="form-control"}}
+  </div>
+
+  <div class="form-group">
+    {{input type="submit" value="Enregistrer" class="btn btn-default btn-lg btn-block"}}
+  </div>
+</form>
+
+{{#link-to "metrics"}}Go to stored data{{/link-to}}
