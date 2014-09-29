@@ -1,9 +1,11 @@
-# Home-stats-front
+# Home Stats (the front-end app)
 
 This should become a quite simple web app, to be installed as a local app on an iOS device (preferably an iPhone since the UI is really narrow).
 
 A simple form will help recording meters readings (water and power consumptions) and store them in a local database.
 Those readings could be send in batch to an Elasticsearch cluster for data mining and visualization.
+
+**WARNING** : this stuff is completely experimental, is absolutely not guarantee to work properly, can totally change any time, without notice and might not be maintained at all. It's just me sharing my experiments.
 
 ----
 
